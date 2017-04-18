@@ -1,4 +1,4 @@
-CXXFLAGS=-Wall -O3 -g
+CXXFLAGS=-Wall -O0 -g
 OBJECTS=demo-main.o minimal-example.o text-example.o led-image-viewer.o
 BINARIES=led-matrix minimal-example text-example
 ALL_BINARIES=$(BINARIES) led-image-viewer
